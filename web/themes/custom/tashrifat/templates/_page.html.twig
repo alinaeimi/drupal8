@@ -70,8 +70,7 @@
 #}
 
 {% block head %}
-      {# navbars #}
-        {# {% if page.secondary_menu or page.top_header or page.top_header_form %}
+        {% if page.secondary_menu or page.top_header or page.top_header_form %}
           <nav{{ navbar_top_attributes }}>
           {% if container_navbar %}
           <div class="container">
@@ -87,8 +86,8 @@
           </div>
           {% endif %}
           </nav>
-        {% endif %} #}
-        {# <nav{{ navbar_attributes }}>
+        {% endif %}
+        <nav{{ navbar_attributes }}>
           {% if container_navbar %}
           <div class="container">
           {% endif %}
@@ -110,7 +109,7 @@
           {% if container_navbar %}
           </div>
           {% endif %}
-        </nav> #}
+        </nav>
 {% endblock %}
 
 {% block content %}
@@ -123,8 +122,7 @@
                   {{ page.content }}
                 </section>
               </main>
-          {# sidebars #}
-            {# {% if page.sidebar_first %}
+            {% if page.sidebar_first %}
               <div{{ sidebar_first_attributes }}>
                 <aside class="section" role="complementary">
                   {{ page.sidebar_first }}
@@ -137,7 +135,7 @@
                   {{ page.sidebar_second }}
                 </aside>
               </div>
-            {% endif %} #}
+            {% endif %}
           </div>
         </div>
 {% endblock %}
