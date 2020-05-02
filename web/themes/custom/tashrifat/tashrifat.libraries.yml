@@ -13,6 +13,13 @@ bootstrap:
   css:
     component:
       /libraries/bootstrap/dist/css/rtl/bootstrap-rtl.min.css: {}
+slick:
+    js:
+      /libraries/slick/slick.min.js: {}
+    css:
+      /libraries/slick/slick.css: {}
+      /libraries/slick/slick-theme: {}
+
 color.preview:
   version: VERSION
   css:

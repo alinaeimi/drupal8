@@ -8,6 +8,7 @@ base theme: bootstrap_barrio
 
 libraries:
   - tashrifat/bootstrap
+  - tashrifat/slick
   - tashrifat/global-styling
 
 regions:
